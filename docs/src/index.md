@@ -1,7 +1,7 @@
 # [MethodOfLines.jl] (@id index)
 
 MethodOfLines.jl is a package for automated finite difference discretization
-of symbolicaly-defined PDEs in N dimensions.
+of symbolically-defined PDEs in N dimensions.
 
 It uses symbolic expressions for systems of partial differential equations as defined with `ModelingToolkit.jl`, and `Interval` from `DomainSets.jl` to define the space(time) over which the simulation runs.
 
@@ -32,7 +32,7 @@ At the moment the package is able to discretize almost any system, with some ass
 
 - That the grid is cartesian.
 - That the equation is first order in time.
-- Intergral equations are not supported.
+- Integral equations are not supported.
 - That dependant variables always have the same argument signature, except in BCs.
 - That periodic boundary conditions are of the simple form `u(t, x_min) ~ u(t, x_max)`, or the same with lhs and rhs reversed. Note that this generalises to higher dimensions.
 - That boundary conditions do not contain references to derivatives which are not in the direction of the boundary, except in time.
