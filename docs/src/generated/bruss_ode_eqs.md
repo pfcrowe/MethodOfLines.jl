@@ -42,7 +42,7 @@ Differential(t)(v[4, 5](t)) ~ 160.0v[4, 2](t) + 160.0v[4, 4](t) - 320.0v[4, 5](t
 Differential(t)(v[5, 5](t)) ~ 160.0v[2, 5](t) + 160.0v[4, 5](t) - 320.0v[5, 5](t) + 160.0v[5, 2](t) + 160.0v[5, 4](t) - 320.0v[5, 5](t) + 3.4u[5, 5](t) - (u[5, 5](t)^2)*v[5, 5](t)]
 ```
 
-## Boundary condition Equations
+## Boundary condition equations
 ```julia
 u[2, 1](t) ~ u[2, 5](t), 
 u[3, 1](t) ~ u[3, 5](t), 
